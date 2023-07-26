@@ -1,0 +1,11 @@
+{
+    "python.analysis.extraPaths": ["${workspaceFolder}"],
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}:${env:PYTHONPATH}",
+        "PATH": "${workspaceFolder}:${env:PATH}"
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.formatting.provider": "none"
+}

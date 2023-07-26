@@ -1,0 +1,378 @@
+
+        [
+    {
+    "reclamo": "Falta agua en el dispenser del módulo 1.",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "la compu 23 del laboratorio 3 se tilda.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "La ventana del Departamento informática quedó abierta y está todo sucio",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "la cerradura del laboratorio de física se rompió",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "la pileta del baño del módulo 1 pierde agua",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "Se terminó el agua del dispenser de las secretarías.",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "Los pasillos del ala 2 están algo oscuros. Les falta luminosidad.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "No anda la red wifi de alumnos.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "La PC 14 en el lab de compu 3 se enciende y se apaga sola a los pocos minutos.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "No hay jabón en el baño de varones del ala 3.",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "No me atienden en alumnado cuando llamo por teléfono en horario de atención.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "Los bancos del aula 5 están con mucha tierra.",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "La comida en el comedor hoy estaba fría.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "Las PCs del laboratorio de computación nro. 1 no tienen instalado Anaconda.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "En el aula 1 hay demasiados pupitres.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "No funciona la cadena de uno de los baños del módulo 2",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "Falta el mousse de una de las PC del laboratorio 2 de computación",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "Falta tinta a los fibrones del aula 2 del módulo 1.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "Hace falta un cable HDMI en el laboratorio 3 de computación",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "No hay agua en los dispensers del módulo 3",
+    "etiqueta": "maestranza"
+    },
+
+    {
+    "reclamo": "No aparece mi nota en el sistema y no puedo presentar el recurso correspondiente.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "He entregado el trabajo hace más de un mes y aún no tengo la calificación.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "La plataforma en línea no me permite subir mis trabajos y ya se ha vencido la fecha límite.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "Mi certificado de estudios aún no ha sido emitido, necesito que me lo entreguen pronto.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "El profesor me calificó, pero mi nota no esta en el campus virtual.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "Me han dado una calificación incorrecta en la materia, necesito una corrección urgente.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "Llevo dos semanas esperando que me entreguen mi diploma y aún no lo hacen.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "La universidad no ha enviado mi documentación necesaria para la beca que solicité.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "Me han dejado fuera del curso porque no aparece en el sistema que ya he aprobado los prerequisitos.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "La universidad no ha actualizado mi historial académico y eso está retrasando mi trámite de titulación.",
+    "etiqueta": "soporte informático"
+    },
+    {
+    "reclamo": "El aula asignada para nuestra clase no tiene aire acondicionado y hace mucho calor.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "La biblioteca cierra muy temprano y no nos da tiempo de hacer nuestras tareas allí.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "La cafetería no tiene opciones vegetarianas y no puedo comer nada de lo que ofrecen.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "Los baños en el edificio de Ingeniería no tienen papel higiénico desde hace varios días.",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "Las sillas del aula están muy desgastadas y ya no son cómodas para sentarse.",
+    "etiqueta": "maestranza"
+    },
+    {
+    "reclamo": "El equipo de cómputo en el laboratorio de informática no funciona correctamente.",
+    "etiqueta": "secretaría técnica"
+    },
+    {
+    "reclamo": "Las luces en el pasillo del edificio de Ciencias están muy tenues y no se puede ver bien.",
+    "etiqueta": "secretaría técnica"
+    },    
+    {
+        "reclamo": "La pantalla del proyector en el aula 2 no funciona.",
+        "etiqueta": "secretaría técnica"
+    },
+    {
+        "reclamo": "El piso del aula 5 está muy sucio.",
+        "etiqueta": "maestranza"
+    },
+    {
+        "reclamo": "No puedo acceder al campus virtual para descargar el material de estudio.",
+        "etiqueta": "soporte informático"
+    },
+    {
+        "reclamo": "El aire acondicionado del aula 3 no enfría adecuadamente.",
+        "etiqueta": "secretaría técnica"
+    },
+    {
+        "reclamo": "La impresora del aula de cómputo está atascada y no imprime.",
+        "etiqueta": "soporte informático"
+    },
+    {
+        "reclamo": "Las mesas del aula 4 están rotas y necesitan reparación.",
+        "etiqueta": "secretaría técnica"
+    },
+    {
+        "reclamo": "El baño del módulo 2 está muy sucio y no hay papel higiénico.",
+        "etiqueta": "maestranza"
+    },
+    {
+        "reclamo": "No puedo enviar mi trabajo por correo electrónico porque la red no funciona.",
+        "etiqueta": "soporte informático"
+    },
+    {
+        "reclamo": "La puerta del módulo 3 está trabada y no puedo abrirla.",
+        "etiqueta": "secretaría técnica"
+    },
+    {
+        "reclamo": "El basurero del aula 6 está lleno y no hay bolsas para vaciarlo.",
+        "etiqueta": "maestranza"
+    },
+    {
+        "reclamo": "No puedo visualizar correctamente los videos en el campus virtual.",
+        "etiqueta": "soporte informático"
+    },
+    {
+        "reclamo": "La luz del aula 1 está parpadeando y es molesto para los estudiantes.",
+        "etiqueta": "secretaría técnica"
+    },
+    {
+        "reclamo": "El aula 7 está muy fría y necesitamos más calefacción.",
+        "etiqueta": "secretaría técnica"
+    },
+    {
+        "reclamo": "El dispensador de agua en el módulo 4 está vacío y necesitamos recargarlo.",
+        "etiqueta": "maestranza"
+    },
+    {
+        "reclamo": "No puedo acceder a mi cuenta en el campus virtual porque se me olvidó la contraseña.",
+        "etiqueta": "soporte informático"
+    },
+    {
+        "reclamo": "La pizarra del aula 3 está muy sucia y no se puede escribir bien en ella.",
+        "etiqueta": "maestranza"
+    },
+    {
+        "reclamo": "La computadora del aula 2 está muy lenta y no puedo trabajar en ella.",
+        "etiqueta": "soporte informático"
+    },
+    {
+        "reclamo": "La cerradura del aula 6 está rota y no podemos cerrarla con llave.",
+        "etiqueta": "secretaría técnica"
+    },
+
+  {
+    "reclamo": "El proyector en el aula 3 no funciona.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "El teclado de la computadora de la sala de profesores está desconfigurado.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "La puerta del módulo 2 está rota.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "No hay papel higiénico en el baño de mujeres en el primer piso.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El aula 5 está demasiado fría.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "No puedo acceder al campus virtual.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "El lavabo del baño del módulo 4 está atascado.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El proyector en el aula 6 tiene una imagen borrosa.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "Mi cuenta de correo electrónico de la facultad no funciona.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "Hay basura acumulada en el módulo 3.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El aire acondicionado en el aula 2 está goteando.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "No puedo inscribirme en la materia a través del campus virtual.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "La pizarra en el aula 7 está sucia.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "La impresora en la sala de cómputo no funciona.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "Hay una gotera en el techo del módulo 1.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "El baño del módulo 3 está cerrado.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "La página web de la facultad está caída.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "La ventana del aula 4 está rota.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "El suelo en el pasillo del módulo 2 está resbaladizo.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El proyector en el aula 3 no funciona.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "El teclado de la computadora de la sala de profesores está desconfigurado.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "La puerta del módulo 2 está rota.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "No hay papel higiénico en el baño de mujeres en el primer piso.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El aula 5 está demasiado fría.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "No puedo acceder al campus virtual.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "El lavabo del baño del módulo 4 está atascado.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El proyector en el aula 6 tiene una imagen borrosa.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "Mi cuenta de correo electrónico de la facultad no funciona.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "Hay basura acumulada en el módulo 3.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "El aire acondicionado en el aula 2 está goteando.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "No puedo inscribirme en la materia a través del campus virtual.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "La pizarra en el aula 7 está sucia.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "La impresora en la sala de cómputo no funciona.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "Hay una gotera en el techo del módulo 1.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "El baño del módulo 3 está cerrado.",
+    "etiqueta": "maestranza"
+  },
+  {
+    "reclamo": "La página web de la facultad está caída.",
+    "etiqueta": "soporte informático"
+  },
+  {
+    "reclamo": "La ventana del aula 4 está rota.",
+    "etiqueta": "secretaría técnica"
+  },
+  {
+    "reclamo": "El suelo en el pasillo del módulo 2 está resbaladizo.",
+    "etiqueta": "maestranza"
+  }
+]
+
