@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Biblioteca Virtual</title>
+    </head>
+
+    <body>
+        <img src="/static/images/libros.png" alt="">
+        <h1>Biblioteca Virtual</h1>
+        {% if esta_vacia %}
+            <h3>La Biblioteca no tiene libros</h3>
+        {% else %}
+            <ul>
+                {% for libro in lista_libros %}
+                    <li>
+                        {{ libro.nombre }} - {{ libro.autor }} - {{ libro.puntaje}}/10
+                    </li>
+                {% endfor %}
+            </ul>            
+        {% endif %}
+
+        <form action="{{ url_for('agregar') }}"> 
+            <input type="submit" value="Agregar Libro">
+        </form>
+
+    </body>
+</html>
