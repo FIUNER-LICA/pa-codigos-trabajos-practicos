@@ -4,9 +4,13 @@
         "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
         "PATH": "${workspaceFolder};${env:PATH}"
     },
-    "editor.fontSize": 16,
-    "editor.fontWeight":"bold",
-    "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 2,
-
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p",
+        "*test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
 }
