@@ -16,13 +16,6 @@ except FileNotFoundError:
 @app.route("/")
 def home():
     esta_vacia = False
-    # opción 1
-    # if request.method == 'POST':
-    #     nombre = request.form['input_nombre']
-    #     autor = request.form['input_autor']
-    #     puntaje = request.form['input_puntaje']
-    #     agregar_libro_a_lista(lista_libros, nombre, autor, puntaje)
-    #     guardar_libro_en_archivo(ARCHIVO, nombre, autor, puntaje)
 
     if len(lista_libros) == 0:
         esta_vacia = True
