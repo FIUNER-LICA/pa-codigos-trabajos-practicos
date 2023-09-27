@@ -1,0 +1,28 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %} 
+<!-- https://wtforms.readthedocs.io/en/2.3.x/ -->
+
+{% block title %}
+Login
+{% endblock %}
+
+{% block content %}
+	<div class="container mx-auto">
+		<h1>Login</h1>
+		<div style="color: red">  
+			{% with messages = get_flashed_messages() %}
+				{% if messages %}
+					{% for message in messages %}
+						{{ message }}
+					{% endfor %}
+				{% endif %}
+			{% endwith %} 
+		</div>		
+		<div class="row">
+			<div class="col-lg-6">
+				{{ wtf.quick_form(form, novalidate=True) }}
+			</div>
+		</div>
+		
+	</div>
+{% endblock %}

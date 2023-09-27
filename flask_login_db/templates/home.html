@@ -1,0 +1,24 @@
+{% extends 'bootstrap/base.html' %} <!--3)-->
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block content %}
+
+	<div class="container">
+		<h1>Bienvenido</h1>
+		<p>Ingresa para descubrir el contenido:</p>
+		<div class="row">
+			<div class="col-lg-4">
+				<p>User: {{user}}</p>
+				{% if logged_in %}						
+					<a href="{{ url_for('logout') }}" class="btn btn-primary btn-block btn-large">Log Out</a>
+				{% else %}
+					<a href="{{ url_for('login') }}" class="btn btn-primary btn-block btn-large">Login</a>
+					<a href="{{ url_for('register') }}" class="btn btn-primary btn-block btn-large">Register</a>
+				{% endif %}
+			</div>	
+		</div>
+	</div>
+{% endblock %}

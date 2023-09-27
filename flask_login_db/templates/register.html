@@ -1,0 +1,20 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+	<div class="container mx-auto my-4">
+		<h1>Register</h1>
+		
+		<div class="row">
+			<div class="col-lg-6">
+				<!--hace un post a la misma ruta donde se crea el formulario-->
+				{{ wtf.quick_form(form, novalidate=True) }}			
+			</div>		
+		</div>
+		
+	</div>
+{% endblock %}
