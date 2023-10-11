@@ -1,0 +1,19 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+	<div class="container mx-auto">
+		<h1>Login</h1>
+		
+		<div class="row">
+			<div class="col-lg-6">
+				{{ wtf.quick_form(form, novalidate=True) }}
+			</div>
+		</div>
+		
+	</div>
+{% endblock %}

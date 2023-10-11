@@ -1,4 +1,3 @@
-
 from modules.preprocesamiento import TextVectorizer
 from modules.preprocesamiento import ProcesadorArchivo
 import pickle
@@ -12,7 +11,7 @@ from sklearn.metrics import accuracy_score
 
 
 class Clasificador():
-    """
+    """Clase que representa un clasificador de reclamos
     """
     def __init__(self, X=np.array, y=np.array, escalado=True):       
         self.X= X 
@@ -48,9 +47,9 @@ class Clasificador():
         grid_search = GridSearchCV(estimator=svc, param_grid=grid, cv=3, scoring="accuracy")
         grid_search.fit(X_train, y_train)
         #se guarda el mejor modelo (el de mejor desempeño)
-        self.clf_best = grid_search.best_estimator_
-        #se vuelve a entrenar el mejor modelo
-        self.clf_best.fit(X_train, y_train)   
+        #por defecto el mejor modelo entrenado queda 
+        #en el objeto grid_search.best_estimator_
+        self.clf_best = grid_search.best_estimator_  
         print(accuracy_score(self.clf_best.predict(X_test), y_test))
         print(self.clf_best)
 
@@ -88,6 +87,6 @@ if __name__== "__main__":
     text= ["No puedo enviar mi trabajo por correo electrónico porque la red no funciona.","El piso del aula 5 está muy sucio."]
     print(cls.clasificar(text))  
 
-    with open('./data/clasificador_svm.pkl', 'wb') as archivo:
-        pickle.dump(cls, archivo)
-    archivo.close()
+    # with open('./data/clasificador_svm.pkl', 'wb') as archivo:
+    #     pickle.dump(cls, archivo)
+    # archivo.close()

@@ -1,20 +1,19 @@
-
-        [
+[
     {
-    "reclamo": "Falta agua en el dispenser del módulo 1.",
-    "etiqueta": "maestranza"
+      "reclamo": "Falta agua en el dispenser del módulo 1.",
+      "etiqueta": "maestranza"
     },
     {
-    "reclamo": "la compu 23 del laboratorio 3 se tilda.",
-    "etiqueta": "soporte informático"
+      "reclamo": "la compu 23 del laboratorio 3 se tilda.",
+      "etiqueta": "soporte informático"
     },
     {
-    "reclamo": "La ventana del Departamento informática quedó abierta y está todo sucio",
-    "etiqueta": "maestranza"
+      "reclamo": "La ventana del Departamento informática quedó abierta y está todo sucio",
+      "etiqueta": "maestranza"
     },
     {
-    "reclamo": "la cerradura del laboratorio de física se rompió",
-    "etiqueta": "secretaría técnica"
+      "reclamo": "la cerradura del laboratorio de física se rompió",
+      "etiqueta": "secretaría técnica"
     },
     {
     "reclamo": "la pileta del baño del módulo 1 pierde agua",
@@ -374,5 +373,6 @@
     "reclamo": "El suelo en el pasillo del módulo 2 está resbaladizo.",
     "etiqueta": "maestranza"
   }
+
 ]
 
