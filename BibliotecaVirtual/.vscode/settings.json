@@ -1,9 +1,0 @@
-{
-    "python.analysis.extraPaths": ["${workspaceFolder}"],
-    "terminal.integrated.env.windows": {
-        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
-        "PATH": "${workspaceFolder};${env:PATH}"
-    },
-    "editor.fontSize": 28,
-    "terminal.integrated.fontSize": 28
-}
