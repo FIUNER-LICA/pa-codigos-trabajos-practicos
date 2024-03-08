@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Digital</title>
+</head>
+<body>
+    <img src="{{ url_for('static', filename='libros.png') }}">
+    {% if vacio %}
+        <h3>No hay libros agregados a la biblioteca</h3>
+    {% else %}
+        <h3>Los libros presentes en la biblioteca son {{num_libros}}:</h3>
+        <ul>
+            {% for libro in mi_lista %}
+                <li>{{libro.nombre}} - {{libro.autor}} - {{libro.calificacion}}/10</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <br>
+    <form action="{{url_for('inicio')}}">
+        <input type="submit" value="Volver">
+    </form>
+</body>
+</html>
