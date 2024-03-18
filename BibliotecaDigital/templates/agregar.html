@@ -7,6 +7,7 @@
 </head>
 <body>
     <img src="{{ url_for('static', filename='libros.png') }}">
+    <h3>Hay {{num_libros}} libros en la biblioteca</h3>
     <h3>Ingresar la información del libro:</h3>    
 
     <form action="{{url_for('funcion_agregar')}}" method="post">
