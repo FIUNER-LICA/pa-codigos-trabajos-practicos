@@ -1,5 +1,5 @@
 # Aplicación principal
-from flask import Flask, render_template, request, redirect, url_for, session
+from flask import render_template, request, redirect, url_for, session
 from modules.config import app
 from modules.funciones import cargar_lista_desde_archivo, guardar_libro_en_archivo, agregar_libro_a_lista
 
