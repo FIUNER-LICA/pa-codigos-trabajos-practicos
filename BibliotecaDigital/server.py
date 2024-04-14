@@ -16,11 +16,13 @@ except FileNotFoundError:
 
 @app.route("/")
 def inicio():
+    
     session['contador'] = len(lista_libros)
     return render_template("inicio.html")
 
 @app.route("/listar")
 def funcion_listar():
+    
     if len(lista_libros) == 0:
         return render_template("listar.html", vacio=True )
     return render_template("listar.html", mi_lista = lista_libros, vacio=False, num_libros=session['contador'])
