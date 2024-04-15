@@ -19,9 +19,10 @@ class Restaurante:
 
     def contratar_chef(self, p_chef):
         if p_chef not in self.__chefs_contratados: 
-            self.__chefs_contratados.append(p_chef)    
-            self.__cocina.agregar_chef(p_chef)          
-            p_chef.anotarse_restaurante(self) 
+            if isinstance(p_chef, Chef):
+                self.__chefs_contratados.append(p_chef)    
+                self.__cocina.agregar_chef(p_chef)          
+                p_chef.anotarse_restaurante(self) 
         else:
             raise ValueError(f"El chef {p_chef.nombre} ya trabaja en el restaurante {self.__nombre}") 
         
