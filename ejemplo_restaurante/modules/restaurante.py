@@ -34,8 +34,8 @@ class Restaurante:
     def nombre(self):
         return self.__nombre
     
-    def __str__(self):
-        return f"{self.__nombre}"
+    # def __str__(self):
+    #     return f"{self.__nombre}"
     
     def __repr__(self):
         return f"{self.__nombre}"

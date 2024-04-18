@@ -13,13 +13,13 @@ class Chef:
         return self.__nombre
 
     def listar_restaurantes_trabajo(self):
-        print(self.__restaurantes_trabajo)
-        # for res in self.__restaurantes_trabajo:
-        #     print(res)
+        # print(self.__restaurantes_trabajo) # Necesita __repr__ en Restaurante
+        for res in self.__restaurantes_trabajo:
+            print(res)
     
-    def __str__(self):
-        return f"Nombre: {self.__nombre}"   
+    # def __str__(self):
+    #     return f"Nombre: {self.__nombre}"   
     
-    # def __repr__(self):
-    #     return f"Nombre: {self.__nombre}"
+    def __repr__(self):
+        return f"Nombre: {self.__nombre}"
         
