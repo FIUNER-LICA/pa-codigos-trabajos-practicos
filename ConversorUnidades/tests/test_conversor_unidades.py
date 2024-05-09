@@ -10,13 +10,14 @@ from modulos.conversor_unidades import ConversorUnidadesTemperatura
 class TestConversorUnidadesTemperatura(unittest.TestCase):
     
     def setUp(self):
+        # print("\nIniciando pruebas...")
         self.miConversor = ConversorUnidadesTemperatura() 
 
     def test_convertir_a_kelvin_valores_extremos(self):
         """ prueba valores de temperatura en los extremos para convertir a unidades Kelvin"""
         self.assertEqual( self.miConversor.convertir_a_kelvin(0, 'C'), 273.15)
         self.assertEqual( self.miConversor.convertir_a_kelvin(-273.15, 'C'), 0)
-        # self.assertEqual( self.miConversor.convertir_a_kelvin(0, 'F'), 255.37)
+        #self.assertEqual( self.miConversor.convertir_a_kelvin(0, 'F'), 255.37)
         self.assertAlmostEqual( self.miConversor.convertir_a_kelvin(0, 'F'), 255.37, places=2)
         self.assertEqual( self.miConversor.convertir_a_kelvin(-459.67, 'F'), 0) 
 
