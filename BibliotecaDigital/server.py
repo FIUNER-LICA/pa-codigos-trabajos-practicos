@@ -15,8 +15,7 @@ except FileNotFoundError:
         pass
 
 @app.route("/")
-def inicio():
-    
+def inicio():    
     session['contador'] = len(lista_libros)
     return render_template("inicio.html")
 
