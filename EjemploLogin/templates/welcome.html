@@ -1,0 +1,16 @@
+{% extends 'bootstrap/base.html' %}
+
+{% block title%}Logged in{% endblock %}
+
+{% block content %}
+	<div class="container">
+		<h1>Welcome: {{user}}!!</h1>
+		<iframe src="https://giphy.com/embed/3YX5uFD3ksn5QGhQCQ" width="480" height="271" frameBorder="0" class="giphy-embed" allowFullScreen></iframe>
+		<p><a href="https://giphy.com/gifs/simon-superrabbit-simon-simone-super-lapin-3YX5uFD3ksn5QGhQCQ">via GIPHY</a></p>
+		
+		<div class="col-lg-5">
+			<a href="{{ url_for('logout') }}" class="btn btn-primary btn-block btn-large">Log Out</a>
+		</div>	
+	</div>
+	
+{% endblock %}
