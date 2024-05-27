@@ -71,7 +71,7 @@ def login():
             flash("Password incorrect, please try again.")
         else:
             login_user(user)
-            print(f"Ingresa en usuario: {current_user}")
+            print(f"Ingresa el usuario: {current_user}")
             session['username'] = user.username
             print(f"nombre de usuario: {session['username']}")
 
@@ -115,7 +115,7 @@ def register():
 # 8) decoramos la vista con login_required para asegurar de que el usuario actual está conectado
 # y autenticado antes de llamar a la función
 @app.route("/welcome/<username>")
-@login_required
+@login_required 
 def welcome(username):           
     return render_template('welcome.html', user=username)
 
