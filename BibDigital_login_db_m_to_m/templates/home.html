@@ -47,6 +47,12 @@
                         {% endif %}
                     {% endif %} 
     
+                    {% if logged_in: %}         
+                        {% if libro in libros_seguidos: %}
+                            <a href="{{ url_for('my_books', username=user, seguir=false, id=libro.id) }}">Dejar de Seguir</a>
+                        {% endif %}                  
+                    {% endif %}
+    
                     {{libro.nombre}} - {{libro.autor}} - {{libro.calificacion}}/10 
     
                     {% if logged_in: %}         

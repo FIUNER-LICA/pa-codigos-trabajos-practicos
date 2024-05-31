@@ -69,6 +69,13 @@ def my_books(username):
         print("usuarios: ", libro_a_seguir.usuarios_seguidores)
         db.session.commit()
         return redirect(url_for('my_books', username=current_user.name, all=True))
+    # Agrego la opción de dejar de seguir un libro
+    if request.args.get('seguir') == 'False':
+        id = request.args.get('id')
+        libro_seguido = db.session.get(TablaLibro,id)
+        current_user.libros_seguidos.remove(libro_seguido)
+        db.session.commit()
+        return redirect(url_for('my_books', username=current_user.name, all=True))
 
     if len(libros_usuario) == 0:
         return render_template(
