@@ -1,0 +1,40 @@
+El proyector del aula A-1 no funciona.
+El sistema de climatización en el aula B-2 está fallando.
+Las computadoras de la sala de cómputo no tienen acceso a internet.
+El laboratorio de química no cuenta con todos los materiales necesarios para realizar las prácticas.
+La conexión wifi en el edificio de la facultad es muy lenta.
+El aula de audiovisuales no cuenta con las herramientas necesarias para la realización de trabajos audiovisuales.
+Los equipos de sonido no están en buen estado y la calidad del sonido es muy mala.
+La impresora del aula de cómputo no funciona correctamente y no se pueden imprimir trabajos importantes.
+Las mesas de la sala de estudio están muy deterioradas y necesitan ser reemplazadas.
+La iluminación del aula C-3 es muy pobre y hace difícil la lectura y la concentración.
+El proyector del aula D-4 no tiene suficiente luminosidad y hace que las imágenes se vean borrosas.
+Los paneles de control de la sala de audiovisuales están dañados y no se pueden ajustar correctamente las luces y el sonido.
+Las cerraduras de las puertas de las aulas no están funcionando correctamente y es difícil cerrarlas y abrirlas.
+La conexión de gas en el laboratorio de química está dañada y representa un riesgo para los estudiantes y el personal.
+Las sillas del aula de conferencias están muy deterioradas
+El sistema de cámaras de seguridad no está funcionando correctamente y no se puede garantizar la seguridad en el edificio de la facultad.
+El software de la plataforma virtual está presentando errores y se dificulta el acceso a la información y materiales de estudio.
+El sistema de calefacción en el aula E-5 no funciona y las temperaturas son muy bajas en invierno.
+El equipo de aire acondicionado en el aula F-6 está dañado y no se puede regular la temperatura adecuadamente.
+El laboratorio de informática no tiene suficientes computadoras para la cantidad de estudiantes que necesitan usarlas.
+El mal estado de los equipos y materiales de laboratorio hace que los estudiantes no puedan realizar los experimentos de manera adecuada.
+La falta de mantenimiento en los equipos de proyección y sonido de las aulas dificulta el desarrollo de las clases y la comprensión de los contenidos.
+La falta de soporte técnico para la instalación y actualización de los programas necesarios para el desarrollo de algunas materias.
+La falta de asistencia técnica para la conexión y funcionamiento de los dispositivos de los estudiantes en las aulas y la red de la facultad.
+La falta de un sistema de reserva y gestión de las salas y equipos de la facultad para evitar conflictos y superposiciones.
+La falta de información y capacitación para el uso adecuado de los equipos y herramientas de la facultad.
+La falta de un sistema de mantenimiento y actualización de la infraestructura tecnológica de la facultad.
+La falta de un sistema de copias de seguridad y recuperación de datos para evitar pérdidas y daños en la información y proyectos de los estudiantes.
+La falta de un sistema de prevención y detección de vulnerabilidades y ataques informáticos en la red de la facultad.
+La falta de un sistema de soporte técnico y asesoramiento para el desarrollo de proyectos tecnológicos y emprendimientos de los estudiantes.
+La falta de un sistema de seguimiento y actualización de las políticas de seguridad y privacidad de la información en la facultad.
+La falta de un sistema de evaluación y mejora continua de los servicios técnicos ofrecidos por la facultad.
+La falta de asistencia técnica para la instalación y configuración de los sistemas de proyección y sonido en los eventos y conferencias organizadas por la facultad.
+La falta de un sistema de gestión y mantenimiento de los espacios y equipos de las bibliotecas de la facultad.
+La falta de un sistema de apoyo técnico y logístico para la organización de eventos y actividades extracurriculares de los estudiantes.
+La falta de un sistema de gestión y monitoreo de la red de la facultad para evitar saturaciones y caídas en el servicio.
+La falta de un sistema de alerta y notificación para las actualizaciones y mantenimientos programados en los servicios técnicos de la facultad.
+La falta de un sistema de gestión y seguimiento de las solicitudes y reclamos de los estudiantes relacionados con los servicios técnicos de la facultad.
+La falta de un sistema de capacitación y actualización de los técnicos y especialistas en los servicios técnicos de la facultad.
+La falta de un sistema de colaboración y trabajo conjunto entre los técnicos y especialistas de las diferentes áreas y departamentos de la facultad para la resolución de problemas y mejoras en los servicios técnicos.

@@ -1,0 +1,13 @@
+{
+    "python.analysis.extraPaths": ["${workspaceFolder}"],
+    "terminal.integrated.env.windows": {
+        "PYTHONPATH": "${workspaceFolder};${env:PYTHONPATH}",
+        "PATH": "${workspaceFolder};${env:PATH}"
+    },
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "editor.fontSize": 18,
+    "editor.fontWeight":"bold",
+    "terminal.integrated.fontSize": 14,
+    "window.zoomLevel": 1,
+    
+}
