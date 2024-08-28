@@ -1,3 +1,9 @@
+"""La capa de persistencia maneja el almacenamiento y recuperación de datos, por ejemplo,
+usando archivos de texto. Esta capa es la que se debe modificar o reemplazar si cambio de tecnología
+para almacenar los datos (por ejemplo con una base de datos). La capa de dominio no debe verse afectada
+por este cambio.
+"""
+
 from modules.dominio import crear_libro
 
 def guardar_libro(nombre_archivo, libro):   

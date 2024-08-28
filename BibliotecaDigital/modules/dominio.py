@@ -1,3 +1,10 @@
+"""La capa de dominio es la responsable de representar los conceptos específicos de la 
+aplicación y sus reglas. Esta capa define cómo se deben manejar los datos y qué operaciones son validas
+dentro del contexto específico de la aplicación.
+La capa de dominio no debe depender de funciones y variables de flask como session, no debe depender 
+de cual sea la interfaz de usuario ni de cómo se almacenan los datos.
+"""
+
 
 def crear_libro(nombre, autor, calificacion):
     """Crea un diccionario con la información de un libro.

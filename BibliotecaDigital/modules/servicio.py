@@ -1,4 +1,10 @@
-from modules.repositorio import guardar_libro, obtener_libros
+"""La capa de servicio maneja los casos de uso (las acciones que el usuario puede realizar) de la aplicación.
+Coordina la interacción entre la capa de dominio y la de persistencia. 
+La aplicación implementada con cualquier interfaz de usuario (web o consola) debe comunicarse solo con 
+la capa de servicio es decir, solo hacer llamadas a funciones de esta capa.
+"""
+
+from modules.persistencia import guardar_libro, obtener_libros
 from modules.dominio import crear_libro
 
 
