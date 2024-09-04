@@ -9,8 +9,8 @@ class Cocina:
         
 
 class Restaurante:
-    def __init__(self, p_nombre):
-        self.__nombre = p_nombre  
+    def __init__(self, p_nombre): # Qué sucede si ingreso un nombre vacío durante la creación?
+        self.nombre = p_nombre  
         self.__cocina = Cocina()    
         self.__chefs_contratados = []  
 
@@ -40,8 +40,15 @@ class Restaurante:
             contratados += f"{chef.nombre}\n"
         return f"Chefs Contratados:\n{contratados}"
     
-    # def __str__(self):
-    #     return f"{self.__nombre}"
+    def __str__(self):
+        return f"{self.__nombre}"
     
     def __repr__(self):
         return f"{self.__nombre}"
+
+if __name__ == '__main__':
+
+    restaurante1 = Restaurante('')
+    # print(restaurante1.nombre)
+    # restaurante1.nombre = 'Ratatouille'
+    # print(restaurante1.nombre)
