@@ -6,7 +6,6 @@
     },
     "editor.fontSize": 16,
     "editor.fontWeight":"bold",
-    "terminal.integrated.fontSize": 16,
-    "window.zoomLevel": 1.5,
-
+    "terminal.integrated.fontSize": 14,
+    "window.zoomLevel": 1,
 }
