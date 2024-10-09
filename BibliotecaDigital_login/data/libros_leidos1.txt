@@ -1,0 +1,7 @@
+Harry Potter,JK Rowling,9.0
+El hormbre en busca de sentido,victor frankl,9.0
+Tus zonas erróneas,Wayne Dyer,9.5
+Tus zonas erróneas,Wayne Dyer,8.5
+Harry Potter,JK Rowling,8.5
+El hombre en busca de sentido,Victor frankl,9.5
+Tus zonas erróneas,Wayne Dyer,8.5
