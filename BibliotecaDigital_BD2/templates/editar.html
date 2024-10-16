@@ -1,0 +1,35 @@
+{% extends 'bootstrap/base.html' %}
+{% import "bootstrap/wtf.html" as wtf %}
+
+{% block title %}
+Register
+{% endblock %}
+
+{% block content %}
+
+	<div class="container mx-auto">
+        <h3>Edite el libro:</h3>   
+		<div style="color: red">  
+			{% with messages = get_flashed_messages() %}
+				{% if messages %}
+					{% for message in messages %}
+						{{ message }}
+					{% endfor %}
+				{% endif %}
+			{% endwith %} 
+		</div>
+		
+		<div class="row">
+			<div class="col-lg-6">
+                <form action="{{ url_for('funcion_editar') }}" method="post">                    
+                    {{ wtf.form_field(e_form.id, value=libro.id)}}
+                    {{ wtf.form_field(e_form.nombre, value=libro.nombre)}}
+                    {{ wtf.form_field(e_form.autor, value = libro.autor) }}
+                    {{ wtf.form_field(e_form.calificacion, value = libro.calificacion) }}
+                    {{ wtf.form_field(e_form.submit, value = "Editar") }}
+                </form>
+			</div>
+		</div>
+		
+	</div>
+{% endblock %}
