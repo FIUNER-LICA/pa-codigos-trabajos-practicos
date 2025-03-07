@@ -26,7 +26,7 @@ class RepositorioTXT(RepositorioAbstracto):
         return lista_libros
     
     
-class RepositorioTXT(RepositorioAbstracto):
+class RepositorioCSV(RepositorioAbstracto):
     def __init__(self, p_nombre_archivo):
         super().__init__(p_nombre_archivo)
 
