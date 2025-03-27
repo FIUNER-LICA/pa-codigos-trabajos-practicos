@@ -28,7 +28,6 @@ class DetectorAlimento:
     
 
 if __name__ == "__main__":
-    
     random.seed(1)
     sensor = DetectorAlimento()
     lista_pesos = []
