@@ -31,6 +31,7 @@ if __name__ == "__main__":
     random.seed(1)
     sensor = DetectorAlimento()
     lista_pesos = []
+    
     for _ in range(200):
         lista_pesos.append(sensor.detectar_alimento()["peso"])
 
