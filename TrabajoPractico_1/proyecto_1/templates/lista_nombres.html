@@ -9,5 +9,8 @@
     {% for nombre in nombres %}
         <p>{{nombre}}</p> 
     {% endfor %}
+    <form action="{{url_for('index')}}">        
+        <button type="submit">Volver</button>
+    </form>
 </body>
 </html>

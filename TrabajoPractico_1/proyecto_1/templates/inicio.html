@@ -11,8 +11,11 @@
     <p>Esta es la página de inicio.</p>
     <p>Una cantidad es: {{una_cantidad}}</p>
 
-    <form action="{{url_for('funcion_saludar')}}">        
+    <form action="{{url_for('pagina_saludar')}}">        
         <button type="submit">Recibir saludo</button>
+    </form>
+    <form action="{{url_for('pagina_listar_nombres')}}">        
+        <button type="submit">Listar nombres</button>
     </form>
 </body>
 </html>

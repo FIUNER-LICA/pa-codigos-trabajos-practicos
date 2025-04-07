@@ -13,7 +13,7 @@ def index():
     return render_template('inicio.html', una_cantidad=cantidad)
 
 @app.route('/saludo')
-def funcion_saludar():
+def pagina_saludar():
     return render_template('saludo.html')
 
 @app.route('/listar_nombres')
