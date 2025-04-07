@@ -1,4 +1,4 @@
-from modules.chef import Chef
+from modules.restaurante import Chef, Cocina, Restaurante
 
 chef1 = Chef('Raul')
 chef2 = Chef('Jose')
@@ -20,3 +20,15 @@ print(chef1)
 
 # chef1.imprimir_nombre()  # No recomendado! Vincula la interfaz de usuario con el modelo de dominio (Chef)
 
+
+cocina1 = Cocina()
+cocina1.agregar_chef(chef1)
+del cocina1
+
+restaurante = Restaurante("Coscoino")
+restaurante.contratar_chef(chef1)
+restaurante.contratar_chef(chef2)
+restaurante.contratar_chef(chef3)
+
+lista_de_chefs = restaurante.listar_chefs()
+print(lista_de_chefs)
