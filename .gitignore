@@ -1,5 +1,6 @@
 # flask-session
 flask_session/
+flask_session_cache/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
