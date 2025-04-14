@@ -9,7 +9,7 @@ app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 
 # Configuración de la sesión que me permite interactuar con la base de datos
 
-URL_BD = 'sqlite:///instance/base_datos.db'
+URL_BD = 'sqlite:///data/base_datos.db'
 
 def crear_engine():
     engine = create_engine(URL_BD)
