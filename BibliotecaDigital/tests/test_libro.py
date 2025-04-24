@@ -1,4 +1,4 @@
-from modules.dominio import Libro
+from modules.libro import Libro
 import unittest
 
 class TestLibro(unittest.TestCase):
@@ -13,6 +13,12 @@ class TestLibro(unittest.TestCase):
         self.assertEqual(libro2.nombre, "1984")
         self.assertEqual(libro2.autor, "George Orwell")
         self.assertEqual(libro2.calificacion, 10)
+
+    def test_modificar_calificacion_libro(self):
+        libro1 = Libro("El principito", "Antoine de Saint-Exupéry", 9.5)
+        libro1.calificacion = 8
+        self.assertNotEqual(libro1.calificacion, 9.5)
+        self.assertEqual(libro1.calificacion, 8)
 
     def test_crear_libro_nombre_vacio_lanza_excepcion(self):
         with self.assertRaises(ValueError):
