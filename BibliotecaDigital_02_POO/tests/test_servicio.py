@@ -1,7 +1,6 @@
 import unittest
 from modules.servicio import GestorDeLibros
-from modules.repositorios_concretos import RepositorioAbstracto
-
+from modules.repositorio_abstracto import RepositorioAbstracto
 
 class FakeRepository(RepositorioAbstracto):
     def __init__(self):
@@ -49,11 +48,5 @@ class TestServicio(unittest.TestCase):
                            {'nombre': 'Momo', 'autor': 'Michael Ende', 'calificacion': 9.0}]
         self.assertEqual(gestor.listar_libros_existentes(), lista_resultado)
 
-    
-
-
-    
-
-    
 if __name__ == "__main__":
     unittest.main()

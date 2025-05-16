@@ -16,13 +16,13 @@ class RepositorioTXT(RepositorioAbstracto):
             with open(self.nombre_archivo, "r") as archi:
                 for linea in archi:
                     nombre, autor, calificacion = linea.rstrip().split(',')
-                    libro = Libro(nombre, autor, calificacion)
+                    libro = Libro(nombre, autor, float(calificacion))
                     lista_libros.append(libro)
         except FileNotFoundError:
             with open(self.nombre_archivo, "w") as archi:
                 pass
-        except ValueError:
-            print(f"Error al leer el archivo {self.nombre_archivo}")        
+        # except ValueError:    # ejemplo de manejo erróneo de excepción pues apantalla la causa raíz del problema. Pruebe eliminar la conversión a float de la calificación y descomente esta línea. ¿A qué conclusión llega? ¿Es realmente correcto el mensaje de la excepción lanzada?
+        #     raise ValueError(f"Error al leer el archivo {self.nombre_archivo}")        
         return lista_libros
     
     
