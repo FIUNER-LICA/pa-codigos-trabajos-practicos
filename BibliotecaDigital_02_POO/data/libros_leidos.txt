@@ -1,9 +1,0 @@
-1984,George Orwell,10.0
-El hombre en busca de sentido,Victor Frankl,9.0
-Tus Zonas Erróneas,Wayne Dyer,10.0
-El arte de amar,Erich Fromm,8.0
-Harry Potter,J.K. Rowling,9.0
-El Principito,Antoine de Saint-Exupéry,10.0
-Crimen y Castigo,Fiodor Dostoyevski,9.0
-Sapiens,Yuval Noah Harari,9.0
-El jard�n olvidado,Kate Morton,8.0
