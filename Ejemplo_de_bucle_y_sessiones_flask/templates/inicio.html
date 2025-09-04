@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación Flask</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Bienvenido a mi Aplicación Flask</h1>
+    <p>Esta es la página de inicio.</p>
+    <p>Una cantidad es: {{una_cantidad}}</p>
+    <form action="{{url_for('pagina_saludar')}}">        
+        <button type="submit">Recibir saludo</button>
+    </form>
+    <br>
+    <form action="{{url_for('pagina_listar_nombres')}}">        
+        <button type="submit">Listar nombres</button>
+    </form>
+    <br>
+    <form action="{{url_for('index')}}" method="post">
+        <label for="id_nro_iteraciones">Número de vueltas (entre 1 y 5):</label>
+        <input type="number" id="id_nro_iteraciones" name="name_nro_iteraciones" min="1" max="5" value="1"><br>
+        <button type="submit">Iterar</button>
+    </form>
+
+    <!--
+    Mensaje temporal para indicar algo puntual.
+    -->
+    {% with messages = get_flashed_messages() %}
+        {% if messages %}
+            {% for message in messages %}
+            <script>
+                alert("{{ message }}")
+            </script>
+            {% endfor %}
+        {% endif %}
+    {% endwith %}
+</body>
+</html>
