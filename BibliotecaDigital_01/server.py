@@ -27,7 +27,6 @@ def funcion_agregar():
     if request.method == "POST":
         # Procesamos los datos del formulario
         nombre = request.form["input_nombre"]
-        nombre = 1
         autor = request.form["input_autor"]
         calificacion = float(request.form["input_calif"])
         agregar_nuevo_libro(ARCHIVO, nombre, autor, calificacion)
